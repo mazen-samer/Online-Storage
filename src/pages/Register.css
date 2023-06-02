@@ -1,0 +1,74 @@
+body {
+  background-image: url("../assets/antoine-rault-IhWRrZx4-kk-unsplash.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.layout {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/antoine-rault-IhWRrZx4-kk-unsplash.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sign-up h1 {
+  margin: 0;
+}
+.sign-up form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+.sign-up form input {
+  outline: none;
+  border: grey 1px solid;
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+}
+.sign-up form button {
+  width: 100%;
+  background-color: rgb(35, 35, 255);
+  border-radius: 5px;
+  padding: 10px 0px;
+  color: rgb(241, 241, 241);
+  border: 1px solid rgb(35, 35, 255);
+  transition: 0.3s;
+  font-size: 15px;
+}
+.sign-up form button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(35, 35, 255);
+}
+
+.sign-up > p {
+  font-size: 15px;
+}
+.sign-up a {
+  text-decoration: none;
+  color: rgb(35, 35, 255);
+  transition: 0.3s;
+}
+.sign-up a:hover {
+  text-decoration: underline;
+  color: rgb(35, 35, 255);
+}

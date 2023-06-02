@@ -1,0 +1,98 @@
+body {
+  background-color: white;
+  background-image: none;
+}
+#not-logged {
+  text-align: center;
+}
+.file-view .header {
+  background-color: rgb(35, 35, 255);
+  padding: 60px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.file-view .header button,
+.file-view .header a {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.file-view .header a {
+  text-decoration: none;
+}
+.file-view .header button:hover,
+.file-view .header a:hover {
+  cursor: pointer;
+  color: rgb(35, 35, 255);
+  background-color: white;
+}
+.file-view .header h1 {
+  color: white;
+  margin: 0;
+}
+.file-view .form {
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.file-view .form .form-input {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.3s;
+}
+.file-view .form .form-input:hover {
+  background-color: rgb(236, 236, 255);
+}
+.file-view .form input::-webkit-file-upload-button {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(35, 35, 255);
+  border: 1px solid rgb(35, 35, 255);
+  transition: 0.3s;
+  font-size: 15px;
+  margin-right: 15px;
+}
+.file-view .form button {
+  background-color: rgb(35, 35, 255);
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(241, 241, 241);
+  border: 1px solid rgb(35, 35, 255);
+  transition: 0.3s;
+  font-size: 15px;
+}
+.file-view .form button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(35, 35, 255);
+}
+.file-view .form button img {
+  width: 20px;
+}
+.file-view .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.file-view .content .files-display {
+  border-right: 1px grey solid;
+  padding: 50px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
