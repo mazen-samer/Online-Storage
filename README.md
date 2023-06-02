@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Online Storage
+
+Online storage system that allows users to view and download their files using React JS and Firebase.
+A user can create an account and upload as many files as he wants and will have the ability to upload and download files.
+
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
